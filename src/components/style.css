@@ -1,0 +1,21 @@
+/* Add this to your global CSS file or a component-specific CSS file */
+
+html {
+    scroll-behavior: smooth; /* Enable smooth scrolling */
+  }
+  
+  .section {
+    scroll-margin-top: 10px; /* Adjust based on your header's height */
+  }
+  
+  /* Optionally add styles for the blinking cursor animation */
+  .animate-blink {
+    animation: blink 1s step-start infinite;
+  }
+  
+  @keyframes blink {
+    50% {
+      opacity: 0;
+    }
+  }
+  
